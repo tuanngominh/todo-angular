@@ -1,4 +1,48 @@
+Todo app for runner fellows (My weekend play ground too) 
+
 # Todos
+CI/CD
+- [ ] Lint and run test with github action. [Reference](https://help.github.com/en/actions/language-and-framework-guides/using-nodejs-with-github-actions).
+
+Features:
+- [ ] Search and listing of a huge list
+- [ ] Search by name, label -> full text search? listing result during typing, when enter show result in list.
+- [ ] List: by default most recent view items. 
+
+More features:
+- [ ] Create training plan
+- [ ] Copy a training plan
+- [ ] Start a training plan
+- [ ] Sync from sport tracker apps (like strava or garmin) then allow to link to a training plan
+
+A bit on auth:
+- [ ] Firebase auth with google account.
+- [ ] Things come from browser always have owner, updateTime, viewTime?
+- [ ] With none public things, only owner can delete, update, view otherwise everyone can view and copy it.
+
+Entities:
+- [ ] Training plan: name, type, start, end
+- [ ] Activity: name, description, content (free style structure), optional linked training plan.
+- [ ] Labels
+
+Scripts:
+- [ ] To generate huge amount of data
+
+Storybook - components:
+- [ ] Search with dropdown
+- [ ] List
+- [ ] Labels
+
+State management:
+- [ ] ngrx?
+
+Others
+- [ ] Angular theme change?
+- [ ] None material theme like https://vmware.github.io/ ? No heavy data app with huge form but elegant game style form.
+- [ ] Mobile first? using test like cypress to confirm?
+- [ ] PWA (Progressive Web App)?
+
+# Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
 
