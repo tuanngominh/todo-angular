@@ -4,13 +4,20 @@ Todo app for runner fellows (My weekend play ground too) at https://ultra-marath
 
 # Todos
 CI/CD
-- [x] Lint, test, deploy with github action. [Reference](https://help.github.com/en/actions/language-and-framework-guides/using-nodejs-with-github-actions).
+- [x] Lint, test, deploy with github action. 
+- Reference: 
+    - https://help.github.com/en/actions/language-and-framework-guides/using-nodejs-with-github-actions
+    - https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions
 
 Strava activities viewer:
 - [ ] Authenticate user to ultra123 app
 - [ ] Authenticate user with strava's app and store access_token in encrypted format
-- [ ] Daily pulling user's activity to ultra123
+- [ ] Daily pulling user's activity to ultra123. Store strava app token in encrypted format.
 - [ ] Activity to owner, authorization enable.
+- Reference:
+    - https://developers.strava.com/
+    - http://developers.strava.com/docs/reference/
+    - https://www.strava.com/settings/api
 
 Features:
 - [ ] Search and listing of a huge list
