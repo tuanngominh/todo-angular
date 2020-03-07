@@ -1,6 +1,11 @@
 name: Node.js CI
 
-on: [push]
+on:
+  push:
+    paths-ignore:
+      - 'README.md'
+      - '.editorconfig'
+      - '**/.gitignore'
 
 jobs:
   build:
