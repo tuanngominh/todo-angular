@@ -1,6 +1,6 @@
 https://github.com/tuanngominh/todo-angular/workflows/nodejs/badge.svg
 
-Todo app for runner fellows (My weekend play ground too) at https://ultra-marathon-training.web.app/ 
+Todo app for runner fellows (My weekend play ground too) at https://ultra-marathon-training.web.app/ . 
 
 # Todos
 CI/CD
