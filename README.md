@@ -1,8 +1,10 @@
-Todo app for runner fellows (My weekend play ground too) 
+https://github.com/tuanngominh/todo-angular/workflows/nodejs/badge.svg
+
+Todo app for runner fellows (My weekend play ground too) at https://ultra-marathon-training.web.app/ 
 
 # Todos
 CI/CD
-- [ ] Lint and run test with github action. [Reference](https://help.github.com/en/actions/language-and-framework-guides/using-nodejs-with-github-actions).
+- [x] Lint, test, deploy with github action. [Reference](https://help.github.com/en/actions/language-and-framework-guides/using-nodejs-with-github-actions).
 
 Features:
 - [ ] Search and listing of a huge list

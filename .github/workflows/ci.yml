@@ -28,8 +28,4 @@ jobs:
       - run: npm run lint
       - run: npm run build:prod
       - run: npm run test:ci
-      - uses: w9jds/firebase-action@master
-        with:
-          args: deploy --only hosting --project tuanngo-me
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+
