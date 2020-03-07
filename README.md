@@ -6,6 +6,12 @@ Todo app for runner fellows (My weekend play ground too) at https://ultra-marath
 CI/CD
 - [x] Lint, test, deploy with github action. [Reference](https://help.github.com/en/actions/language-and-framework-guides/using-nodejs-with-github-actions).
 
+Strava activities viewer:
+- [ ] Authenticate user to ultra123 app
+- [ ] Authenticate user with strava's app and store access_token in encrypted format
+- [ ] Daily pulling user's activity to ultra123
+- [ ] Activity to owner, authorization enable.
+
 Features:
 - [ ] Search and listing of a huge list
 - [ ] Search by name, label -> full text search? listing result during typing, when enter show result in list.
