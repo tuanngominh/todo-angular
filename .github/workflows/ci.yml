@@ -6,8 +6,8 @@ on:
       - 'e2e/**'
       - 'README.md'
       - '.editorconfig'
-      - '**/.gitignore'
-      - '*.spec.ts'
+      - '**.gitignore'
+      - '**.spec.ts'
 
 jobs:
   build:
