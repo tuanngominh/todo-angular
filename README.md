@@ -6,6 +6,10 @@ Todo app for runner fellows (My weekend play ground too) at https://ultra-marath
 CI/CD
 - [x] Lint, test, deploy with github action. [Reference](https://help.github.com/en/actions/language-and-framework-guides/using-nodejs-with-github-actions).
 
+Auth:
+- Guess go to landing page.
+- User go to activities page.
+
 Features:
 - [ ] Search and listing of a huge list
 - [ ] Search by name, label -> full text search? listing result during typing, when enter show result in list.
