@@ -4,6 +4,12 @@ on:
   push:
     branches:
       - master
+    paths-ignore:
+      - 'e2e/**'
+      - 'README.md'
+      - '.editorconfig'
+      - '**.gitignore'
+      - '**.spec.ts'
 
 jobs:
   build:
