@@ -15,6 +15,8 @@ import {MatButtonModule} from '@angular/material/button';
 import {AngularFireAuthGuard} from '@angular/fire/auth-guard';
 import {AngularFireModule} from '@angular/fire';
 import {environment} from '../environments/environment';
+import { HeaderComponent } from './components/header/header.component';
+import {FirebaseAuthService} from './auth/firebase-auth/firebase-auth.service';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,8 @@ import {environment} from '../environments/environment';
     LoginComponent,
     DashboardComponent,
     ItemListComponent,
-    AdminComponent
+    AdminComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +37,10 @@ import {environment} from '../environments/environment';
     MatIconModule,
     MatButtonModule
   ],
-  providers: [AngularFireAuthGuard],
+  providers: [
+    AngularFireAuthGuard,
+    {provide: 'Auth', useClass: FirebaseAuthService}
+  ],
   bootstrap: [ShellComponent]
 })
 export class AppModule { }
