@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "tuanngo-me"
+  },
+  "targets": {
+    "tuanngo-me": {
+      "hosting": {
+        "todos": [
+          "tuanngo-me"
+        ]
+      }
+    }
   }
 }
